@@ -1,0 +1,5 @@
+Place your browser driver executables in this directory.
+
+Chrome - chromedriver.exe
+Firefox - geckodriver.exe
+Microsoft Edge - msedgedriver.exe
