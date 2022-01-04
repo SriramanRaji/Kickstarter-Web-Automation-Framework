@@ -21,6 +21,7 @@ public class GlobalUtil {
 	static String reportFolder = "/target/reports/";
 	static String configFolder = "/src/main/resource/config/";
 	static String driverFolder = "/src/main/resource/driver/";
+	static String imageFolder = "/src/test/resource/image-data/";
 
 	static String chromeDriverPath = projectFolder + driverFolder + "chromedriver.exe";
 	static String firefoxDriverPath = projectFolder + driverFolder + "geckodriver.exe";
