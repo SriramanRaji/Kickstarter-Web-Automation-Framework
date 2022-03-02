@@ -7,7 +7,7 @@
 
 # <p style='text-align: justify;'>About The Repository</p>
 
-<h2 style='text-align: justify;'>A simple kickstarter Test Automation Framework for Web</h2>
+<h2 style='text-align: justify;'>A kickstarter Skeleton Framework for Web Automation</h2>
 
 <p align='justify'> Have an idea to upgrade / found an Issue ? &emsp;<a style='color: coroal; text-decoration:none;' href='https://sriramanraji.github.io/SriramanRaji/contact.html'>Connect with Me.</a></p>
 <br>
