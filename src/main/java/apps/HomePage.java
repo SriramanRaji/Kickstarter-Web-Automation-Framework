@@ -37,7 +37,7 @@ public class HomePage {
 			WebUtil.setText("txtUsername", GlobalUtil.testDataHash.get("Username"));
 			WebUtil.setText("txtPassword", GlobalUtil.testDataHash.get("Password"));
 			WebUtil.clickElement("btnLogin");
-			WebUtil.verifyPageTitle("My Account");
+//			WebUtil.verifyPageTitle("My Account");
 		} catch (Exception e) {
 			ReportUtil.reportEvent(LogStatus.FAIL, "Login failed", true);
 		}

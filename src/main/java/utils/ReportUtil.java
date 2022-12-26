@@ -61,8 +61,8 @@ public class ReportUtil {
 	 */
 	public static void startReporting(String testCaseName) {
 		createFolder();
-//		reportFile = reportFolder+testCaseName + "_" + DateUtil.getCurrentDateAndTimeAsString() + ".html";
-		reportFile = reportFolder+DateUtil.getCurrentDateAsString() + ".html";
+		reportFile = reportFolder+testCaseName + "_" + DateUtil.getCurrentDateAndTimeAsString() + ".html";
+//		reportFile = reportFolder+DateUtil.getCurrentDateAsString() + ".html";
 		System.out.println("Report File : "+ reportFile);
 		report = new ExtentReports(reportFile, false);
 		report.loadConfig(new File(GlobalUtil.projectFolder+GlobalUtil.configFolder+"extentReportConfig.xml"));
